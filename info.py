@@ -15,5 +15,9 @@ class person():
     def sent_job(self):
         print(f'{self.name} is mechanic and he is working in company')
 
+    def sent_leave(self):
+        print(f'{self.name} leaving in liverpol')
+
 i = person('ali',32)
 i.sent_job()
+i.sent_leave()
