@@ -17,7 +17,11 @@ class person():
     
     def sent_mar(self):
         print(f'{self.name} married with maryam in 2016')
+    
+    def sent_ch(self):
+        print(f'{self.name} have one child her name is Sogol')
 
 i = person('ali',32)
 i.sent_job()
 i.sent_mar()
+i.sent_ch()
