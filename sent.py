@@ -1,2 +1,3 @@
 name = 'reza'
-print(f'his name is {name}')
+city = 'tehran'
+print(f'his name is {name} he leave in {city}')
