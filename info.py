@@ -14,6 +14,10 @@ class person():
 
     def sent_job(self):
         print(f'{self.name} is mechanic and he is working in company')
+    
+    def sent_mar(self):
+        print(f'{self.name} married with maryam in 2016')
 
 i = person('ali',32)
 i.sent_job()
+i.sent_mar()
