@@ -1,2 +1,4 @@
 name = 'reza'
-print(f'his name is {name}')
+city = 'tehran'
+age = 34
+print(f'his name is {name} he leave in {city} he is {age} years old')
