@@ -1,9 +1,14 @@
 class person():
-    def __init__(self,name) :
+    def __init__(self,name,age) :
         self.name = name
+        self.age = age
 
-    def sent(self):
-        print(f'hello {self.name} ')
+    def sent_name(self):
+        print(f'his name is {self.name} ')
 
-i = person('ali')
-i.sent()
+    def sent_age(self):
+        print(f'{self.name} is {self.age}')
+
+i = person('ali',32)
+i.sent_name()
+i.sent_age()
