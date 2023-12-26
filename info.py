@@ -12,7 +12,8 @@ class person():
     def sent_city(self):
         print(f'{self.name} is born in london')
 
+    def sent_job(self):
+        print(f'{self.name} is mechanic and he is working in company')
+
 i = person('ali',32)
-i.sent_name()
-i.sent_age()
-i.sent_city()
+i.sent_job()
